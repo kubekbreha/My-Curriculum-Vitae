@@ -1,0 +1,363 @@
+.slides--contained .slide__text {
+    left: -13vw;
+}
+
+a.youtube-link {
+    position: absolute;
+    left: 2%;
+    bottom: 3%;
+    color: #201f21;
+    font-size: 35px;
+}
+
+a.pdf-link {
+    position: absolute;
+    left: 4.5%;
+    bottom: 3%;
+    color: #201f21;
+    font-size: 35px;
+}
+
+a.pdf-link:hover{
+    color: #05e5e0;
+}
+
+.name {
+    border-left: 10px solid #000;
+    height: 70px;
+    margin-left: 3%;
+    margin-top: 15%;
+}
+
+.codrops-icon {
+    display: inline-block;
+    margin: 0.2em;
+    padding: 0.25em;
+    font-size: 18px;
+}
+
+.social {
+    top: 20px;
+    left: 2%;
+}
+
+.demos {
+    font-size: 18px;
+    text-align: right;
+}
+
+.info {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.info span{
+    color: #201f21;
+}
+
+.pum-theme-9 .pum-container, .pum-theme-default-theme .pum-container {
+    padding: 0;
+    border-radius: 0px;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: #fff !important;
+}
+
+.pum-theme-9 .pum-content, .pum-theme-default-theme .pum-content {
+    color: #8c8c8c;
+    text-align: center !important;;
+}
+
+.pum-overlay button, input, select, textarea {
+    margin-top: 5px !important;;
+    border: 1px solid #9c9c9c !important;;
+}
+
+.pum-theme-9 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close {
+    background-color: #000 !important;
+}
+
+.pum-theme-9 .pum-content, .pum-theme-default-theme .pum-content {
+    text-transform: uppercase !important;
+}
+
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
+    border: none !important;
+    color: red !important;
+}
+
+div.wpcf7-mail-sent-ok {
+    border: none !important;
+}
+
+.demo-2{
+    overflow-x: hidden;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+    text-transform: uppercase !important;
+    color: #909090 !important;
+}
+
+.slide-nav__button {
+    font-size: 18px !important;
+}
+
+span.pop-it.pum-trigger {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.logo{
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    z-index: 9999;
+}
+
+.logo img{
+    width:100%;
+}
+
+.slide:nth-child(2) .slide__text {
+    color: #f12c24;
+    
+}
+
+.slide:first-child .slide__text {
+    color: #05e5e0;
+}
+
+.slide:nth-child(4) .slide__text {
+    color: #f12c24;
+}
+
+.slide:nth-child(3) .slide__text {
+    color: #05e5e0;
+}
+
+.span.pop-it.pum-trigger:hover{
+    color: #f12c24;
+    cursor: pointer;
+}
+
+.slide__text {
+    top: 65%;
+}
+
+.slides--contained + .slide-nav {
+    top: calc(65% - 0.5rem);
+}
+
+.timer{
+position: absolute;
+top: 20px;
+left: 20px;
+}
+
+.blue{
+color: #05e5e0;
+}
+
+.slides--contained .slide__text {
+    left: -18.5vw;
+}
+
+.slides--contained + .slide-nav {
+    left: calc(95vw - 600px - 11rem - 4rem - 10vw);
+}
+
+.portfolio-btn{
+display: none;
+}
+
+@media only screen and (min-width: 2000px) {
+    .slides--contained + .slide-nav {
+        flex-direction: row;
+        justify-content: flex-start;
+        height: auto;
+        margin: 0 0 0 0.25rem;
+        top: calc(50% - 0.5rem);
+        left: calc(100vw - 1070px - 11rem - 4rem - 10vw);
+    }
+    
+    .slides--contained .slide__img {
+        width: 1040px;
+        max-width: 100%;
+    }
+    
+    .name{
+        margin-top: 20%;
+    }
+    
+    .slide__description {
+        margin-left: 6px;
+    }
+
+
+}
+
+
+@media only screen and (max-width : 1024px) {
+    .social {
+        top: 20px;
+        text-align: center;
+        left: 0; 
+        margin-bottom: 10px;
+        position: relative;
+    }
+    
+    .name{
+        display: none;
+    }
+    
+    .logo {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 9999;
+        position: relative;
+        max-width: 80%;
+        margin: 20px auto 0;
+    }
+    
+    .demos {
+        display: none;
+        font-size: 18px;
+    }
+    
+    .slides--contained .slide__text {
+        left: 0;
+    }
+    
+    .content {
+        flex-direction: column-reverse;
+        padding-bottom: 0;
+    }
+    
+    .content--fixed {
+        padding: 0;
+    }
+    
+    .slides--contained + .slide-nav {
+        left: auto !important;
+        justify-content: center !important;
+        position: relative !important;
+        top: auto !important;
+        margin-bottom: 25px;
+    }
+    
+    .slide .slide__text {
+        color: #f12c24;
+        /* position: absolute; */
+        /* top: 0; */
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+        width: 90%;
+    }
+    
+    .slides--contained .slide__img {
+        height: 60vh;
+    }
+    
+    a.youtube-link {
+        position: relative;
+        left: 50%;
+        /* bottom: 0; */
+        color: #201f21;
+        font-size: 35px;
+        margin-left: -18px;
+        margin-bottom: 0;
+        display: inline-block;
+    }
+    
+    
+    
+    .codrops-icon {
+        display: inline-block;
+        margin: 0.2em;
+        padding: 0.25em;
+        font-size: 14px;
+    }
+    
+    .info {
+        font-size: 14px;
+    }
+    
+    .slides--contained {
+        margin: 0 !important;
+        width: 80vw !important;
+        padding: 0 0 1rem 0;
+    }
+    
+    a.pdf-link {
+        position: relative;
+        left: 40%;
+        bottom: 0;
+        color: #201f21;
+        font-size: 35px;
+        /* margin-left: -13px; */
+        display: block;
+        float: left;
+    }
+    
+    span.pop-it.pum-trigger {
+        color: #fff;
+    }
+.slides--contained + .slide-nav {
+    left: auto !important;
+    justify-content: center !important;
+    position: relative !important;
+    top: auto !important;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.slide .slide__text {
+    color: #f12c24;
+    /* position: absolute; */
+    /* top: 0; */
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    width: 90%;
+}
+
+.portfolio-btn {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+font-size: 18px;
+}
+
+.demo-2 {
+    overflow-x: visible;
+}
+
+.js body.render {
+    opacity: 1;
+    padding-bottom: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+
