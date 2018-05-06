@@ -18,7 +18,7 @@ a.pdf-link {
     font-size: 35px;
 }
 
-a.pdf-link:hover{
+a.pdf-link:hover {
     color: #05e5e0;
 }
 
@@ -51,7 +51,7 @@ a.pdf-link:hover{
     margin-bottom: 20px;
 }
 
-.info span{
+.info span {
     color: #201f21;
 }
 
@@ -90,7 +90,7 @@ div.wpcf7-mail-sent-ok {
     border: none !important;
 }
 
-.demo-2{
+.demo-2 {
     overflow-x: hidden;
 }
 
@@ -109,20 +109,20 @@ span.pop-it.pum-trigger {
     font-weight: 600;
 }
 
-.logo{
+.logo {
     position: absolute;
     left: 10%;
     top: 20%;
     z-index: 9999;
 }
 
-.logo img{
-    width:100%;
+.logo img {
+    width: 100%;
 }
 
 .slide:nth-child(2) .slide__text {
     color: #f12c24;
-    
+
 }
 
 .slide:first-child .slide__text {
@@ -137,7 +137,7 @@ span.pop-it.pum-trigger {
     color: #05e5e0;
 }
 
-.span.pop-it.pum-trigger:hover{
+.span.pop-it.pum-trigger:hover {
     color: #f12c24;
     cursor: pointer;
 }
@@ -150,14 +150,14 @@ span.pop-it.pum-trigger {
     top: calc(65% - 0.5rem);
 }
 
-.timer{
-position: absolute;
-top: 20px;
-left: 20px;
+.timer {
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
 
-.blue{
-color: #05e5e0;
+.blue {
+    color: #05e5e0;
 }
 
 .slides--contained .slide__text {
@@ -168,8 +168,8 @@ color: #05e5e0;
     left: calc(95vw - 600px - 11rem - 4rem - 10vw);
 }
 
-.portfolio-btn{
-display: none;
+.portfolio-btn {
+    display: none;
 }
 
 @media only screen and (min-width: 2000px) {
@@ -181,37 +181,35 @@ display: none;
         top: calc(50% - 0.5rem);
         left: calc(100vw - 1070px - 11rem - 4rem - 10vw);
     }
-    
+
     .slides--contained .slide__img {
         width: 1040px;
         max-width: 100%;
     }
-    
-    .name{
+
+    .name {
         margin-top: 20%;
     }
-    
+
     .slide__description {
         margin-left: 6px;
     }
 
-
 }
 
-
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width: 1024px) {
     .social {
         top: 20px;
         text-align: center;
-        left: 0; 
+        left: 0;
         margin-bottom: 10px;
         position: relative;
     }
-    
-    .name{
+
+    .name {
         display: none;
     }
-    
+
     .logo {
         position: absolute;
         left: 0;
@@ -221,25 +219,25 @@ display: none;
         max-width: 80%;
         margin: 20px auto 0;
     }
-    
+
     .demos {
         display: none;
         font-size: 18px;
     }
-    
+
     .slides--contained .slide__text {
         left: 0;
     }
-    
+
     .content {
         flex-direction: column-reverse;
         padding-bottom: 0;
     }
-    
+
     .content--fixed {
         padding: 0;
     }
-    
+
     .slides--contained + .slide-nav {
         left: auto !important;
         justify-content: center !important;
@@ -247,7 +245,7 @@ display: none;
         top: auto !important;
         margin-bottom: 25px;
     }
-    
+
     .slide .slide__text {
         color: #f12c24;
         /* position: absolute; */
@@ -255,18 +253,18 @@ display: none;
         position: absolute;
         left: 50%;
         top: 50%;
-        transform: translate(-50%,-50%);
-        -webkit-transform: translate(-50%,-50%);
-        -moz-transform: translate(-50%,-50%);
-        -ms-transform: translate(-50%,-50%);
-        -o-transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
         width: 90%;
     }
-    
+
     .slides--contained .slide__img {
         height: 60vh;
     }
-    
+
     a.youtube-link {
         position: relative;
         left: 50%;
@@ -277,26 +275,24 @@ display: none;
         margin-bottom: 0;
         display: inline-block;
     }
-    
-    
-    
+
     .codrops-icon {
         display: inline-block;
         margin: 0.2em;
         padding: 0.25em;
         font-size: 14px;
     }
-    
+
     .info {
         font-size: 14px;
     }
-    
+
     .slides--contained {
         margin: 0 !important;
         width: 80vw !important;
         padding: 0 0 1rem 0;
     }
-    
+
     a.pdf-link {
         position: relative;
         left: 40%;
@@ -307,57 +303,65 @@ display: none;
         display: block;
         float: left;
     }
-    
+
     span.pop-it.pum-trigger {
         color: #fff;
     }
-.slides--contained + .slide-nav {
-    left: auto !important;
-    justify-content: center !important;
-    position: relative !important;
-    top: auto !important;
-    margin-bottom: 25px;
-    width: 100%;
+
+    .slides--contained + .slide-nav {
+        left: auto !important;
+        justify-content: center !important;
+        position: relative !important;
+        top: auto !important;
+        margin-bottom: 25px;
+        width: 100%;
+    }
+
+    .slide .slide__text {
+        color: #f12c24;
+        /* position: absolute; */
+        /* top: 0; */
+        position: absolute;
+        left: 50%;
+        top: 75%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        width: 90%;
+    }
+
+    .portfolio-btn {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .demo-2 {
+        overflow-x: visible;
+    }
+
+    .js body.render {
+        opacity: 1;
+        padding-bottom: 20px;
+    }
+
 }
 
-.slide .slide__text {
-    color: #f12c24;
-    /* position: absolute; */
-    /* top: 0; */
-    position: absolute;
-    left: 50%;
-    top: 75%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
-    width: 90%;
-}
 
-.portfolio-btn {
-    display: block;
+.anaglyph {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    font: normal 50px/normal "Chau Philomene One", Helvetica, sans-serif;
+    color: rgb(51, 51, 51);
     text-align: center;
-    margin-bottom: 10px;
-font-size: 18px;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    letter-spacing: 3px;
+    text-shadow: -3px 0 1px rgb(30,242,241) , 3px 0 1px rgb(246,5,10) ;
 }
-
-.demo-2 {
-    overflow-x: visible;
-}
-
-.js body.render {
-    opacity: 1;
-    padding-bottom: 20px;
-}
-
-}
-
-
-
-
-
-
-
-
 
