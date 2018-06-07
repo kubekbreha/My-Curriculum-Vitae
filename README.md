@@ -4,7 +4,7 @@ This is small webpage for self propagation. I will store here references to my p
 
 ## Screenshots
 
-<img src="readmeImg/1.jpg" width="420"/> <img src="readmeImg/2.jpg" width="420"/>
+<img src="readmeImg/1.png" width="420"/> <img src="readmeImg/2.png" width="420"/>
 
 
 ## Using
