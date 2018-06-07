@@ -1,4 +1,4 @@
-# Android App Parts
+# My Curriculum Vitae (CV)
 
 This is small webpage for self propagation. I will store here references to my projects and stuff I do. Site is under construction for now.
 
