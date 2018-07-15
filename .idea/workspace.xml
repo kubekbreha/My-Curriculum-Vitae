@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee57cec8-cd57-4903-9160-5fc319ea283f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Who stole my unicorn_.htm" beforeDir="false" afterPath="$PROJECT_DIR$/main_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Who stole my unicorn__files/analytics.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Who stole my unicorn__files/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Who stole my unicorn__files/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Who stole my unicorn__files/css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main/css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Who stole my unicorn__files/css(1)" beforeDir="false" afterPath="$PROJECT_DIR$/css/main/css(1)" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Who stole my unicorn__files/es.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Who stole my unicorn__files/fb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Who stole my unicorn__files/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Who stole my unicorn__files/grayscale.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main/grayscale.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Who stole my unicorn__files/grayscale.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main/grayscale.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Who stole my unicorn__files/jquery.easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Who stole my unicorn__files/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Who stole my unicorn__files/languages.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/main_page.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,7 +19,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
+            <state relative-caret-position="720">
               <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -46,8 +31,8 @@
       <file leaf-file-name="main_page.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+            <state relative-caret-position="110">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -222,12 +207,12 @@
       <workItem from="1525838798958" duration="3000" />
       <workItem from="1525838835187" duration="587000" />
       <workItem from="1526760906871" duration="177000" />
-      <workItem from="1531668799121" duration="5771000" />
+      <workItem from="1531668799121" duration="6277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20421000" />
+    <option name="totallyTimeSpent" value="20927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -537,23 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="416" column="32" selection-start-line="416" selection-start-column="32" selection-end-line="416" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Who stole my unicorn__files/analytics.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-66" />
@@ -604,10 +572,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="402" column="18" lean-forward="true" selection-start-line="402" selection-start-column="18" selection-end-line="402" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        <state relative-caret-position="110">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
