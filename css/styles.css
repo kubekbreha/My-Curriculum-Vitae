@@ -178,8 +178,8 @@ span.pop-it.pum-trigger {
     display: none;
 }
 
-.blog_button {
-    margin-left: 20%;
+.center_blog{
+    padding-right: 50%;
 }
 
 @media only screen and (min-width: 2000px) {
@@ -200,6 +200,10 @@ span.pop-it.pum-trigger {
     .slide__description {
         margin-left: 6px;
     }
+
+    .center_blog{
+        padding-right: 0;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -211,12 +215,8 @@ span.pop-it.pum-trigger {
         position: relative;
     }
 
-    .blog_button {
-        position: relative;
-        top: 50%;
-        left: 56%;
-        margin-left: -100px;
-
+    .center_blog{
+        padding-right: 0;
     }
 
     .demos {
