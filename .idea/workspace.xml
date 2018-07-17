@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee57cec8-cd57-4903-9160-5fc319ea283f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/blogs_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogs_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selfless_life.html" beforeDir="false" afterPath="$PROJECT_DIR$/selfless_life.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="selfless_life.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/selfless_life.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
-              <caret line="128" column="116" lean-forward="true" selection-start-line="128" selection-start-column="116" selection-end-line="128" selection-end-column="116" />
+            <state relative-caret-position="394">
+              <caret line="121" column="51" selection-start-line="121" selection-start-column="51" selection-end-line="121" selection-end-column="51" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -76,7 +75,6 @@
       <find>content</find>
       <find>logo</find>
       <find>demos</find>
-      <find>new</find>
       <find>button</find>
       <find>jq</find>
       <find>boots</find>
@@ -86,6 +84,7 @@
       <find>ins</find>
       <find>new we</find>
       <find>VIEW</find>
+      <find>awa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -216,12 +215,12 @@
       <workItem from="1526760906871" duration="177000" />
       <workItem from="1531668799121" duration="16030000" />
       <workItem from="1531750865120" duration="8889000" />
-      <workItem from="1531816848725" duration="8690000" />
+      <workItem from="1531816848725" duration="9122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48259000" />
+    <option name="totallyTimeSpent" value="48691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -602,8 +601,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/selfless_life.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="128" column="116" lean-forward="true" selection-start-line="128" selection-start-column="116" selection-end-line="128" selection-end-column="116" />
+        <state relative-caret-position="394">
+          <caret line="121" column="51" selection-start-line="121" selection-start-column="51" selection-end-line="121" selection-end-column="51" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
