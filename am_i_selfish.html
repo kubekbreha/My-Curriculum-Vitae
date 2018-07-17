@@ -173,6 +173,14 @@
 
 <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
 
+
+
+<script>
+    var userip;
+</script>
+
+<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+
 <script>
     // Initialize Firebase
     var config = {
@@ -183,13 +191,15 @@
         storageBucket: "mycv-c53ab.appspot.com",
         messagingSenderId: "1046805937232"
     };
+
     firebase.initializeApp(config);
-
-    console.log("hello my friend");
-
-
+    
     $('document').ready(function () {
         console.log("im in");
+
+        firebase.database().ref().push(
+            userip
+        );
 
         $.getJSON('http://gd.geobytes.com/GetCityDetails?callback=?', function (data) {
             console.log(JSON.stringify(data, null, 2));
@@ -198,10 +208,7 @@
                 JSON.stringify(data, null, 2)
             );
         });
-        
-        firebase.database().ref().push(
-            "hwllo"
-        );
+
     });
 </script>
 
