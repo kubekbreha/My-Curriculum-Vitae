@@ -185,14 +185,23 @@
     };
     firebase.initializeApp(config);
 
-    $('document').ready(function(){
-        $.getJSON('http://gd.geobytes.com/GetCityDetails?callback=?', function(data) {
+    console.log("hello my friend");
+
+
+    $('document').ready(function () {
+        console.log("im in");
+
+        $.getJSON('http://gd.geobytes.com/GetCityDetails?callback=?', function (data) {
             console.log(JSON.stringify(data, null, 2));
 
             firebase.database().ref().push(
                 JSON.stringify(data, null, 2)
             );
         });
+        
+        firebase.database().ref().push(
+            "hwllo"
+        );
     });
 </script>
 
