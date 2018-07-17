@@ -127,7 +127,9 @@
                         You can't win. You can only lose because it does not really help when you want to get something
                         from it.
 
-                        Just help. Try to get rid of any side thoughts, do it honestly. If you can't do that, please
+                        Just help. Try to get rid of any side thoughts, do it honestly.
+                        Do it because of it right thing to do.
+                        If you can't do that, please
                         just keep your
                         mouth shut.
                         It's much harder to take back what you said, so it's better if you don't say it in the first
@@ -165,6 +167,34 @@
 <script src="js/main/jquery.easing.min.js"></script>
 <!-- Custom Theme JavaScript -->
 <script src="js/main/grayscale.js"></script>
+
+
+<script src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+
+<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyC8LfWikvPYawmUDIAkImxeM2demV5Ry0k",
+        authDomain: "mycv-c53ab.firebaseapp.com",
+        databaseURL: "https://mycv-c53ab.firebaseio.com",
+        projectId: "mycv-c53ab",
+        storageBucket: "mycv-c53ab.appspot.com",
+        messagingSenderId: "1046805937232"
+    };
+    firebase.initializeApp(config);
+
+    $('document').ready(function(){
+        $.getJSON('http://gd.geobytes.com/GetCityDetails?callback=?', function(data) {
+            console.log(JSON.stringify(data, null, 2));
+
+            firebase.database().ref().push(
+                JSON.stringify(data, null, 2)
+            );
+        });
+    });
+</script>
 
 
 </body>
