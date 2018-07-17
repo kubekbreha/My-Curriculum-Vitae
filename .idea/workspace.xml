@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee57cec8-cd57-4903-9160-5fc319ea283f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogs_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selfless_life.html" beforeDir="false" afterPath="$PROJECT_DIR$/selfless_life.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,20 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2520">
-              <caret line="168" selection-start-line="168" selection-end-line="168" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="selfless_life.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/selfless_life.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1015">
-              <caret line="107" column="124" lean-forward="true" selection-start-line="107" selection-start-column="124" selection-end-line="107" selection-end-column="124" />
+            <state relative-caret-position="674">
+              <caret line="128" column="116" lean-forward="true" selection-start-line="128" selection-start-column="116" selection-end-line="128" selection-end-column="116" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -41,6 +32,15 @@
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blogs_list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogs_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -101,9 +101,9 @@
         <option value="$PROJECT_DIR$/main_page.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/portfolio.html" />
-        <option value="$PROJECT_DIR$/blogs_list.html" />
         <option value="$PROJECT_DIR$/navigation.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/blogs_list.html" />
         <option value="$PROJECT_DIR$/selfless_life.html" />
       </list>
     </option>
@@ -178,17 +178,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.selfless_life.html">
+  <component name="RunManager" selected="JavaScript Debug.selfless_life.html (1)">
     <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/My-Curriculum-Vitae/index.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/My-Curriculum-Vitae/index.html" />
+    <configuration name="selfless_life.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/My-Curriculum-Vitae/selfless_life.html" />
     <configuration name="selfless_life.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/My-Curriculum-Vitae/selfless_life.html" />
     <list>
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.index.html (1)" />
       <item itemvalue="JavaScript Debug.selfless_life.html" />
+      <item itemvalue="JavaScript Debug.selfless_life.html (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.selfless_life.html (1)" />
         <item itemvalue="JavaScript Debug.selfless_life.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
@@ -213,12 +216,12 @@
       <workItem from="1526760906871" duration="177000" />
       <workItem from="1531668799121" duration="16030000" />
       <workItem from="1531750865120" duration="8889000" />
-      <workItem from="1531816848725" duration="3185000" />
+      <workItem from="1531816848725" duration="8690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42754000" />
+    <option name="totallyTimeSpent" value="48259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -323,6 +326,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -330,6 +336,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -365,6 +374,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -372,6 +384,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -407,6 +422,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -414,6 +432,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -449,6 +470,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -456,6 +480,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -488,6 +515,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -495,6 +525,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -553,24 +586,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogs_list.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="48" column="41" selection-start-line="47" selection-start-column="40" selection-end-line="48" selection-end-column="41" />
+        <state relative-caret-position="744">
+          <caret line="168" selection-start-line="168" selection-end-line="168" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/blogs_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="168" selection-start-line="168" selection-end-line="168" />
+        <state relative-caret-position="114">
+          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/selfless_life.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1015">
-          <caret line="107" column="124" lean-forward="true" selection-start-line="107" selection-start-column="124" selection-end-line="107" selection-end-column="124" />
+        <state relative-caret-position="674">
+          <caret line="128" column="116" lean-forward="true" selection-start-line="128" selection-start-column="116" selection-end-line="128" selection-end-column="116" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
