@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Jakub Brehuv</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="./css/main/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/main/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="css/main/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/main/css" rel="stylesheet" type="text/css">
+    <link href="css/main/css(1)" rel="stylesheet" type="text/css">
+
+</head>
+
+<!-- Navigation -->
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<div id="nav-placeholder"></div>
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+    $.get("navigation.html", function (data) {
+        $("#nav-placeholder").replaceWith(data);
+    });
+</script>
+
+
+<!-- Intro Header -->
+<header class="intro">
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <h1 style="margin-top: 10%;" class="brand-heading">Dreams vs reality</h1>
+                    <h6>By Jakub Brehuv, 16.8.2018</h6>
+                    <!-- <img src="images/opal2.jpg" style="  width: 100%; height: auto;"> -->
+
+
+                    <p style="font-size: 133%; margin-top: 5%;">
+                    </p>
+
+
+
+                    <p style="font-size: 133%; margin-top: 5%;">
+
+                    </p>
+                    
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <button style="margin-bottom: 10%;" onclick="location.href='blogs_list.html';" class="btn-default">
+                        Back to blog
+                    </button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</header>
+
+
+<!-- jQuery -->
+<script src="js/main/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="./js/main/bootstrap.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="js/main/jquery.easing.min.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="js/main/grayscale.js"></script>
+
+
+<script src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+
+<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+
+
+
+<script>
+    var userip;
+</script>
+
+<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyC8LfWikvPYawmUDIAkImxeM2demV5Ry0k",
+        authDomain: "mycv-c53ab.firebaseapp.com",
+        databaseURL: "https://mycv-c53ab.firebaseio.com",
+        projectId: "mycv-c53ab",
+        storageBucket: "mycv-c53ab.appspot.com",
+        messagingSenderId: "1046805937232"
+    };
+
+    firebase.initializeApp(config);
+
+    $('document').ready(function () {
+        console.log("im in");
+
+        firebase.database().ref().push(
+            userip
+        );
+
+        $.getJSON('http://gd.geobytes.com/GetCityDetails?callback=?', function (data) {
+            console.log(JSON.stringify(data, null, 2));
+
+            firebase.database().ref().push(
+                JSON.stringify(data, null, 2)
+            );
+        });
+
+    });
+</script>
+
+
+</body>
+</html>
