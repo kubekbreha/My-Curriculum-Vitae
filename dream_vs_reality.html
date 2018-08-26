@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -24,116 +25,114 @@
 </head>
 
 <!-- Navigation -->
+
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-<div id="nav-placeholder"></div>
-<script src="//code.jquery.com/jquery.min.js"></script>
-<script>
-    $.get("navigation.html", function (data) {
-        $("#nav-placeholder").replaceWith(data);
-    });
-</script>
+    <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $.get("navigation.html", function(data) {
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
 
 
-<!-- Intro Header -->
-<header class="intro">
-    <div class="intro-body">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <h1 style="margin-top: 10%;" class="brand-heading">Dream vs reality.</h1>
-                    <h6>By Jakub Brehuv, xx.8.2018</h6>
-                    <!-- <img src="images/opal2.jpg" style="  width: 100%; height: auto;"> -->
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <h1 style="margin-top: 10%;" class="brand-heading">Dream vs reality.</h1>
+                        <h6>By Jakub Brehuv, xx.8.2018</h6>
+                        <!-- <img src="images/opal2.jpg" style="  width: 100%; height: auto;"> -->
 
 
-                    <p style="font-size: 133%; margin-top: 5%;">
-                      Did you ever have that feeling that you got a great question to ask somebody, but this question was so gerat
-                      that you want to give answer more that hear one. That is exact feeling I have right now. For last couple of months
-                      I was trying to improve my dialogues with people. That mean I wanted to be more present in that moments, don't let
-                      anything distract me. It worked really good but I find out that If I want to go deeper and get to know person
-                      on another level I better have some good questions ready in my pocket. Don't take me wrong, talking about gym, coding
-                      and some other shuff is great but only until certain point. The one question that stand above all other questions I was
-                      thinking about goes like this: "What is the most astonishing thing in life. What amaze you every time you see it, experience it,
-                      hear it or maybe feel it. Whatever it is. "
-                    </p>
+                        <p style="font-size: 133%; margin-top: 5%;">
+                            Did you ever have that feeling that you got a great question to ask somebody, but you liked that question so much that you want to give answer more that hear one. That is exact feeling I have right now. For last couple of months I was trying to improve
+                            my dialogues with people. That mean I wanted to be more present in that moments, don't let anything distract me. It worked really good but I find out that If I want to go deeper and get to know person on another level I better
+                            have some good questions ready in my pocket. Don't take me wrong, talking about gym, coding and some other shuff is great but only until certain point. The one question that stand above all other questions I was thinking about
+                            goes like this: "What is the most astonishing thing in life. What amaze you every time you see it, experience it, hear it or maybe feel it. Whatever it is. Just tell me what it is. "
+                        </p>
 
 
-                    <p style="font-size: 133%; margin-top: 5%;">
-                    
-                    </p>
+                        <p style="font-size: 133%; margin-top: 5%;">
+
+                        </p>
 
 
 
+                    </div>
                 </div>
-            </div>
 
 
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <button style="margin-bottom: 10%;" onclick="location.href='blogs_list.html';" class="btn-default">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <button style="margin-bottom: 10%;" onclick="location.href='blogs_list.html';" class="btn-default">
                         Back to blog
                     </button>
+                    </div>
                 </div>
+
+
             </div>
-
-
         </div>
-    </div>
-</header>
+    </header>
 
 
-<!-- jQuery -->
-<script src="js/main/jquery.js"></script>
-<!-- Bootstrap Core JavaScript -->
-<script src="./js/main/bootstrap.min.js"></script>
-<!-- Plugin JavaScript -->
-<script src="js/main/jquery.easing.min.js"></script>
-<!-- Custom Theme JavaScript -->
-<script src="js/main/grayscale.js"></script>
+    <!-- jQuery -->
+    <script src="js/main/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./js/main/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="js/main/jquery.easing.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/main/grayscale.js"></script>
 
 
-<script src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+    <script src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
 
-<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
 
 
 
-<script>
-    var userip;
-</script>
+    <script>
+        var userip;
+    </script>
 
-<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+    <script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
 
-<script>
-    // Initialize Firebase
-    var config = {
-        apiKey: "AIzaSyC8LfWikvPYawmUDIAkImxeM2demV5Ry0k",
-        authDomain: "mycv-c53ab.firebaseapp.com",
-        databaseURL: "https://mycv-c53ab.firebaseio.com",
-        projectId: "mycv-c53ab",
-        storageBucket: "mycv-c53ab.appspot.com",
-        messagingSenderId: "1046805937232"
-    };
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyC8LfWikvPYawmUDIAkImxeM2demV5Ry0k",
+            authDomain: "mycv-c53ab.firebaseapp.com",
+            databaseURL: "https://mycv-c53ab.firebaseio.com",
+            projectId: "mycv-c53ab",
+            storageBucket: "mycv-c53ab.appspot.com",
+            messagingSenderId: "1046805937232"
+        };
 
-    firebase.initializeApp(config);
+        firebase.initializeApp(config);
 
-    $('document').ready(function () {
-        console.log("im in");
-
-        firebase.database().ref().push(
-            userip
-        );
-
-        $.getJSON('http://gd.geobytes.com/GetCityDetails?callback=?', function (data) {
-            console.log(JSON.stringify(data, null, 2));
+        $('document').ready(function() {
+            console.log("im in");
 
             firebase.database().ref().push(
-                JSON.stringify(data, null, 2)
+                userip
             );
-        });
 
-    });
-</script>
+            $.getJSON('http://gd.geobytes.com/GetCityDetails?callback=?', function(data) {
+                console.log(JSON.stringify(data, null, 2));
+
+                firebase.database().ref().push(
+                    JSON.stringify(data, null, 2)
+                );
+            });
+
+        });
+    </script>
 
 
 </body>
+
 </html>
